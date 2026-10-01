@@ -12,7 +12,7 @@ public class elseif {
             System.out.println("you are teenager");
         }else{
             System.out.println("youe are child ");
-        }
+        }sc.close();
     
     }
 }
