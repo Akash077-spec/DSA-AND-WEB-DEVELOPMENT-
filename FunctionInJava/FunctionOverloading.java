@@ -1,7 +1,12 @@
 package FunctionInJava;
 
 public class FunctionOverloading {
-    public static int add(int a,int b){
+    public static int add(int a,int b){/*function overloading is used 
+        1. we use add method three time . but parameter are different for all methods
+        2. method overloading depent on parameter and number of parameter
+        
+        */ 
+
         int sum=a+b;
         return sum;
     }
