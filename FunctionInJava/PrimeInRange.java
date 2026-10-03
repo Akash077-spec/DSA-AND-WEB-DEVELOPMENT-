@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class PrimeInRange {
 
+    //prime checker and print primes within a range
     public static boolean isPrime(int n) {
 
         boolean isPrime = true;
