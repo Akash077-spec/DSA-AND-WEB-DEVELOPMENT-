@@ -9,10 +9,14 @@ public class inputArray {
         marks[2]=sc.nextInt();
         marks[3]=sc.nextInt();
         marks[4]=sc.nextInt();
-        System.out.println("Phy mark is : " + marks[1]);
         System.out.println("Math mark is : " + marks[2]);
         System.out.println("chem mark is : " + marks[3]);
-        System.out.println(" bio mark is : " + marks[4]);
+        System.out.println("bio mark is : " + marks[4]);
+        System.out.println("Array length is :"+ marks.length);
+        float percentage = (marks[1]+marks[2]+marks[3]+marks[4])/4;
+        System.out.println("Percentage is :" + percentage);
+        System.out.println("Phy mark is : " + marks[1]);
+
         sc.close();
     }
 }
