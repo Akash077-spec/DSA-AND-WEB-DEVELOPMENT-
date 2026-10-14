@@ -1,5 +1,17 @@
 package Array;
+/*
+LOGIC:
+Largest  -> Start with Integer.MIN_VALUE
+         -> Traverse array
+         -> If number[i] > largest, update largest
 
+Smallest -> Start with Integer.MAX_VALUE
+         -> Traverse array
+         -> If number[i] < smallest, update smallest
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
 public class LargestInArray {
     public static int getLargest( int number[]){
        int largest= Integer.MIN_VALUE;
