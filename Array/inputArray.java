@@ -17,6 +17,23 @@ public class inputArray {
         System.out.println("Percentage is :" + percentage);
         System.out.println("Phy mark is : " + marks[1]);
 
+       /*
+       Revision and practice the concept of taking the input from the user in a array data structure.
+       
+        */
+        String cars[]=new String[10];
+        System.out.println("Enter your car choices ");
+         cars[0]=sc.next();
+         cars[1]=sc.next();
+         cars[2]=sc.next();
+         cars[3]=sc.next();
+         System.out.println("First car choice is: "+cars[0]);
+         System.out.println("Second car choice is: "+cars[1]);
+        System.out.println("Third car choice is: "+cars[2]);
+         System.out.println("Fourth car choice is: "+cars[3]);
+        
+
+        
         sc.close();
     }
 }
