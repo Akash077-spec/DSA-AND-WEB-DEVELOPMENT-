@@ -19,5 +19,20 @@ public class arrayCreation {
         System.out.println(fruits[0]);
         System.out.println(fruits[1]);
 
+
+        // Revision of array creation by two methods(ways)
+        int number[]=new int [23];
+        number[0]=23;
+        number[1]=45;
+        number[5]=34;
+        System.out.println(number[0]);
+        System.out.println(number[1]);
+        System.out.println(number[5]);
+        String cars[]={"bmw","bugati","rr","ford"};
+        System.out.println(cars[0]);
+        System.out.println(cars[1]);
+        System.out.println(cars[2]);
+        System.out.println(cars[3]);
+
     }
 }
