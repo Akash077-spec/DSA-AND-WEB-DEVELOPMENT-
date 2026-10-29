@@ -29,8 +29,7 @@ public class Pairs {
             // Pair current with all elements after it
             for (int j = i + 1; j < numbers.length; j++) {
 
-                System.out.print(
-                    "(" + current + "," + numbers[j] + ") "
+                System.out.print("(" + current + "," + numbers[j] + ") "
                 );
 
                 count++;
